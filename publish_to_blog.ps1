@@ -1,5 +1,5 @@
 write-host "Deleting /public"
-rmdir -f ./public 
+rmdir ./public -r -force
 
 mkdir ./public
 
