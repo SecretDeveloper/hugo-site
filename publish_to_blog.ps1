@@ -9,7 +9,7 @@ git subtree add --prefix public git@github.com:SecretDeveloper/secretdeveloper.g
 
 write-host 'git pull blog repo into /public'
 # pull down the blog repo into folder.
-git subtree pull --prefix=public
+git subtree pull --prefix=public git@github.com:SecretDeveloper/secretdeveloper.github.io.git hugo
 
 write-host 'hugo build into /public'
 # publish to 'publish'
