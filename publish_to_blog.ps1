@@ -7,7 +7,7 @@ write-host 'hugo build into /public'
 # publish to 'publish'
 ./hugo.exe -t purehugo
 
-mv ./public/* ../secretdeveloper.github.io/
+cp .\public\* ..\secretdeveloper.github.io -force -recurse
 
 cd ../secretdeveloper.github.io/
 
