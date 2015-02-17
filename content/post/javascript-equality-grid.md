@@ -10,6 +10,8 @@ Javascript gets some bad press these days especially over how its comparison ope
 
 I decided to extend [Craig Gidneys](http://strilanc.com/visualization/2014/03/27/Better-JS-Equality-Table.html) example and added ===, !=, !== <, <=, > and .= comparisons. 
 
+Rows are the left side operand and columns are the right.
+
 [Source code on jsfiddle](https://jsfiddle.net/SecretDeveloper/1zywbpLL/)
 
-<img src="http://i.imgur.com/u6ePovs.png" title="JS equality operator grids" />
+<img src="http://i.imgur.com/H9axhC3.png" title="JS equality operator grids" />
