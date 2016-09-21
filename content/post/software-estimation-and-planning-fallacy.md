@@ -3,6 +3,7 @@ date = "2016-09-11T09:34:47Z"
 title = "Software, Estimation and the Planning Fallacy"
 description= ""
 categories= ["Software","Estimation","Planning Fallacy","Bias"]
+draft=true
 +++
 
 # Software, Estimation and the Planning Fallacy
@@ -31,7 +32,7 @@ I have become more involved in the task of software estimation in recent months 
 <a name="1">[1]</a> https://en.wikipedia.org/wiki/Sydney_Opera_House
 
 <a name="2">[2]</a> https://en.wikipedia.org/wiki/List_of_failed_and_overbudget_custom_software_projects  
-When I started looking at this I was reminded of something from another interest of mine, history.  Prior to Napoleon wars were relatively smaller affairs with troop numbers limited to around 30K due to economic constraints.  Napoleon was able to gather armies up to 300K-500K men funded a booming french economy.  The scale of the software projects above are beyond the reach of most companies, instead they can only really be funded by healthy nations economy.
+When I started looking at this I was reminded of something from another interest of mine, history.  Prior to Napoleon wars were relatively smaller affairs with troop numbers limited to around 30K due to economic constraints.  Napoleon was able to gather armies up to 300K-500K men funded a booming french economy.  The huge cost of the software projects listed here are far beyond the reach of most enterprises.  Much like war, mistakes at this scale can only really be funded by the economy of a large nation.
 
 <a name="3">[3]</a> https://en.wikipedia.org/wiki/NHS_Connecting_for_Health
 
