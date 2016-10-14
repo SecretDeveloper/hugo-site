@@ -7,6 +7,9 @@ draft=true
 +++
 
 # Software, Estimation and the Planning Fallacy
+
+My flight is delayed for 3 hours so I'm taking the rare opportunity to put together some thoughts on how software project estimation can trip companies, teams and individuals up.  
+
 I always find it interesting that the IT industry borrows so many terms from  Construction; Programmers are called Engineers and Architects, Code is built rather than compiled, we have Planning and Construction phases in delivery models.  In the early days this would have been useful to help form the initial mental model of the roles and processes used to deliver software.  As the industry matured we developed new terms of our own but some older phrases still remain.
 
 Another carry over from the Construction industry is cost estimation, any large project whether it is built with concrete or javascript must have an estimated cost right from the start it seems.  And those estimates are expected to be accurate, statements on various goals such as "within 20% of final cost" are relatively common.  There is also an expectation for estimates to become more accurate over time.  Like a hunter stalking deer in a deep forest at night, estimators are expected to get better at hitting the mark with practice. But is this a reasonable expectation?
