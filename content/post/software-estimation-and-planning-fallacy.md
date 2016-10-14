@@ -8,11 +8,19 @@ draft=true
 
 # Software, Estimation and the Planning Fallacy
 
-My flight is delayed for 3 hours so I'm taking the rare opportunity to put together some thoughts on how software project estimation can trip companies, teams and individuals up.  
+My flight is delayed for 3 hours so I'm taking the rare opportunity to put together some thoughts on how software project estimation can trip companies, teams and individuals up.    
 
-I always find it interesting that the IT industry borrows so many terms from  Construction; Programmers are called Engineers and Architects, Code is built rather than compiled, we have Planning and Construction phases in delivery models.  In the early days this would have been useful to help form the initial mental model of the roles and processes used to deliver software.  As the industry matured we developed new terms of our own but some older phrases still remain.
+Remember way back when we had the Waterfall model?  Well actually we didn't have the Waterfall, the Waterfall model was put forward by Winston Royce back in the early 70's as an example of a *broken* SDLC model, unfortunately this little note was lost in the scramble to adopt it as the de-facto model to use!  Lets forget all of that, you would be hard pressed to find any organizations still working under a Waterfall model and the reason for that is pretty strong.   
 
-Another carry over from the Construction industry is cost estimation, any large project whether it is built with concrete or javascript must have an estimated cost right from the start it seems.  And those estimates are expected to be accurate, statements on various goals such as "within 20% of final cost" are relatively common.  There is also an expectation for estimates to become more accurate over time.  Like a hunter stalking deer in a deep forest at night, estimators are expected to get better at hitting the mark with practice. But is this a reasonable expectation?
+It didn't work. A big upfront design session only works if you know what you are designing, anyone who has worked on any Enterprise level applications knows that a project that has a clearly defined end goal is pretty rare. Oh sure there are ideas, and concepts, and even some rules about what it *won't* be but often the final product evolves significantly from beginning to end. So if you don't know what you are building until you see it then all of that Waterfall upfront design time is not only wasted effort, it is baggage that you have to carry with you, making it harder to pivot or change plans once the real product starts to form.   
+
+*It didn't work so we abandoned it, right? We understand that change and evolution is a part of product development now, right?*  
+
+"It depends" seems to be the answer, we gave up on the structured requirements gathering and big upfront design phases in favour of entering the implementation phases much earlier.  In the Agile world you would look to define an MVP product, Epics are identified and prioritized, you start implementing the pieces you can earlier and find your way as you go.  It's not that this way is the ultimate solution, but at least it works to some degree, where Waterfall did not work at all for most projects (there are projects where large upfront design can work well).
+
+So why are we still expecting upfront estimates considering we know that this is already a flawed model?  And even more puzzling, why do we have an expectation for estimates to be be highly accurate, and for them to get more accurate over time?  Like a hunter stalking deer in a deep forest at night, estimators are expected to get better at hitting the mark with practice.   
+
+Lets talk for a moment about why estimation is a broken concept.
 
 The Sydney opera house[1](#1) is one of the most famous budget overruns for any construction project, coming in at a whopping ten years and fourteen times over original estimate, final costs are at around $102M.  But of course that is concrete and steel, surely software doesn't cost as much and is easier to estimate, right?  Not so, Wikipedia keeps a nice list of failed and overbudget software projects[2](#2), here are a few highlights:
 - NHS Connecting for Health[3](#3) - Estimated at £2.3bn over 3 years, it has so far cost £12.4bn over 10 years.
@@ -22,11 +30,13 @@ Those are staggering numbers making the Opera house seem like a bargain at $100M
 
 Software is still a relatively new industry in comparison to construction, each decade sees major changes in how software is built and how projects are managed e.g. Waterfall to Agile. Humans have been building homes and other structures for centuries yet we still fail to accurately estimate the cost of construction. Why are we so bad at estimating?
 
-Buehler and associates (1995)[6](#6) performed a study on a number of students and asked each of them to estimate the dates when they 
+There are a number of factors and some previous studies are pretty revealing. **Overly optimistic planning:** Buehler and associates (1995)[6](#6) performed a study on a number of students and asked each of them to estimate the date by which they would be finished their Senior Thesis.  The average was 33.9 days.  They then asked the students to estimate how long it would take if everything went perfectly to plan and the average was 27.4 days.  They then asked how long it would take if everything went as poorly as possible and the response was an average of 48.6 days.  The actual time it took the students to complete their thesis was 55.5 days.  So even when we try to estimate the worst case scenario we fail to come close.  In fact the estimate for how long it will take is very close to the perfect scenario.  It seems people are optimists by nature and while that helps us to believe it is physically possible to build skyscrapers it probably does not help us estimate the cost of the skyscraper.  
 
+So what is to be done?  The old way of doing things was to estimate the cost of a proposed project and compare it against the projected return (cost saving, ROI, new customers, whatever) in order to green light a project or not.  We *know* the estimate is going to be off, in some  cases by an order of magnitude.  If we are honest we can also say that the projected return suffers from the same problem.  So I suggest dropping the whole thing and change how you green light projects.
 
+**Seed money:** Give a Product Owner (there should be one...) some seed money and a team, maybe a month, maybe 3 depending on the product.  Get them to build something real, something representative of a final product.  Have a second round of funding meeting where Product Owners pitch for funding based on what they have built.  By that point they should have a much clearer picture of the real cost required (being 1% complete, 10% complete...) to build a production ready product (including architectural signoff on plans, quality metrics on what has been built so far etc).  The return on investment should also be easier to quantify if not actually visualize with the working prototype.
 
-I have become more involved in the task of software estimation in recent months and have found it to largely be a frustrating experience, one where expectations of accuracy are high.
+Funding should be pretty ruthless at this point, it should be easy to scrap a product that is not showing enough promise in favour of something else.  
 
 <hr/>
 
