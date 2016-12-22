@@ -1,16 +1,14 @@
 +++
-date = "2016-09-11T09:34:47Z"
+date = "2016-10-14T12:54:47Z"
 title = "Software, Estimation and the Planning Fallacy"
-description= ""
+description= "Some thoughts on the state of Enterprise project estimation."
 categories= ["Software","Estimation","Planning Fallacy","Bias"]
 draft=true
 +++
 
-# Software, Estimation and the Planning Fallacy
-
-My flight is delayed for 3 hours so I'm taking the rare opportunity to put together some thoughts on how software project estimation can trip companies, teams and individuals up.    
-
-Remember way back when we had the Waterfall model?  Well actually we didn't have the Waterfall, the Waterfall model was put forward by Winston Royce back in the early 70's as an example of a *broken* SDLC model, unfortunately this little note was lost in the scramble to adopt it as the de-facto model to use!  Lets forget all of that, you would be hard pressed to find any organizations still working under a Waterfall model and the reason for that is pretty strong.   
+My flight is delayed for 3 hours so I'm taking the rare opportunity to put together some thoughts on how software project estimation can trip companies, teams and individuals up.   
+ 
+Remember way back when everyone thought the Waterfall model was great?  Well actually no, for the most part they didnt. The Waterfall model was put forward by Winston Royce back in the early 70's as an example of a *broken* SDLC model.  Unfortunately this little note was lost in the scramble to adopt it as the de-facto model to use.  Now what is interesting to me is its individual creator could see that the waterall model contained flaws but groups of people could either not see those same flaws, or were unable to cease its adoption even if they tried; I'm not sure which of those is worse.  30 years later you would be hard pressed to find any organizations still working under a Waterfall model, which is good.  The real problem however is not that a mistake was made, its that it took a generation before we acknowledged there was a problem.     
 
 It didn't work. A big upfront design session only works if you know what you are designing, anyone who has worked on any Enterprise level applications knows that a project that has a clearly defined end goal is pretty rare. Oh sure there are ideas, and concepts, and even some rules about what it *won't* be but often the final product evolves significantly from beginning to end. So if you don't know what you are building until you see it then all of that Waterfall upfront design time is not only wasted effort, it is baggage that you have to carry with you, making it harder to pivot or change plans once the real product starts to form.   
 
@@ -22,10 +20,13 @@ So why are we still expecting upfront estimates considering we know that this is
 
 Lets talk for a moment about why estimation is a broken concept.
 
-The Sydney opera house[1](#1) is one of the most famous budget overruns for any construction project, coming in at a whopping ten years and fourteen times over original estimate, final costs are at around $102M.  But of course that is concrete and steel, surely software doesn't cost as much and is easier to estimate, right?  Not so, Wikipedia keeps a nice list of failed and overbudget software projects[2](#2), here are a few highlights:
-- NHS Connecting for Health[3](#3) - Estimated at £2.3bn over 3 years, it has so far cost £12.4bn over 10 years.
-- Universal Credit[4](#4) - Estimated at £2.2bn this was later revised to £12.8bn and again revised to £15.8bn.
-- Expeditionary Combat Support System [5](#5) - $1.1bn was spent with no significant deliverables, another $1.1bn would need to be invested to even achieve a quarter of original scope.
+The Sydney opera house[1](#1) is one of the most famous budget overruns for any construction project, coming in at a whopping ten years and fourteen times over original estimate, final costs are at around $102M.  But of course that is concrete and steel, surely software doesn't cost as much and is easier to estimate, right?   
+
+Not so, Wikipedia keeps a nice list of failed and overbudget software projects[2](#2), here are a few highlights:   
+
+  - NHS Connecting for Health[3](#3) - Estimated at £2.3bn over 3 years, it has so far cost £12.4bn over 10 years.   
+  - Universal Credit[4](#4) - Estimated at £2.2bn this was later revised to £12.8bn and again revised to £15.8bn.   
+  - Expeditionary Combat Support System [5](#5) - $1.1bn was spent with no significant deliverables, another $1.1bn would need to be invested to even achieve a quarter of original scope.  
 Those are staggering numbers making the Opera house seem like a bargain at $100M.  
 
 Software is still a relatively new industry in comparison to construction, each decade sees major changes in how software is built and how projects are managed e.g. Waterfall to Agile. Humans have been building homes and other structures for centuries yet we still fail to accurately estimate the cost of construction. Why are we so bad at estimating?
