@@ -3,24 +3,28 @@ baseurl = "http://secretdeveloper.github.io/"
 languageCode = "en-us"
 title = "Just another blog with random, unripenend thoughts."
 disqusShortname = "secretdevelopernet"
+googleAnalytics = "UA-6023272-11"
 
 [author]
     name = "Gary Kenneally - @SecretDeveloper"
-
-[permalinks]
-    # Optional. Change the permalink format for the 'post' content type.
-    # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/blog/:year/:month/:day/:title/"
 
 [indexes]
     # Optional. Use if you want tags and lists.
     category = "categories"
 
 [params]
+    author= "Gary Kenneally"
 	twitter = "@secretdeveloper"
 	github = "secretdeveloper"
 	gratipay = "SecretDeveloper"
-	Description = "Gary Kenneally - @SecretDeveloper"
+	description = "Gary Kenneally - @SecretDeveloper"
 	authortwitter = "@secretdeveloper"
 	authorname = "Gary Kenneally"
-	googleAnalytics = "UA-6023272-11"
+
+[menu]
+  [[menu.main]]
+    identifier = "presentations"
+    name = "Presentations"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/presentations/"
+    weight = -110
