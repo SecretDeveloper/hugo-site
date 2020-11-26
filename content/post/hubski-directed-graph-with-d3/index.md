@@ -10,9 +10,9 @@ Using some c# code to scrape hubski.com I was able to produce a pretty basic dir
 
 [Source code on github](https://github.com/SecretDeveloper/SocialGraph)
 
-[Demo version](http://secretdeveloper.github.io/items/hubski_graph.html)
+[Demo version](./hubski_graph.html)
 
-[Advanced Demo version](http://secretdeveloper.github.io/items/hubski_graph_advanced.html) 
+[Advanced Demo version](./hubski_graph_advanced.html)
 
 <a href="./hubski_graph.html">
 <img src="http://i.imgur.com/Ko6TQQ3.png" title="Hubski Followers" width=400 height=400 /></a>
